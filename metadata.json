@@ -1,0 +1,6 @@
+{
+  "name": "ကိုးနဝင်းပုတီးစိပ်နည်း",
+  "description": "ကိုးနဝင်း ၈၁ ရက် ပုတီးစိပ်နည်း နေ့စဉ်မှတ်တမ်း",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

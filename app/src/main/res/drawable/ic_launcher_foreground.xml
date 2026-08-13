@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Central Dharmachakra (Wheel of Dharma) with 8 Spokes and Outer Teeth -->
+    <!-- Outer Rim of the Wheel -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FED86E"
+        android:strokeWidth="2.2"
+        android:pathData="M54,54 m-13.5,0 a13.5,13.5 0,1,1 27,0 a13.5,13.5 0,1,1 -27,0" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#AA7818"
+        android:strokeWidth="0.5"
+        android:pathData="M54,54 m-15,0 a15,15 0,1,1 30,0 a15,15 0,1,1 -30,0" />
+
+    <!-- Inner Rim of the Hub -->
+    <path
+        android:fillColor="#5D101E"
+        android:strokeColor="#FED86E"
+        android:strokeWidth="1.2"
+        android:pathData="M54,54 m-4.5,0 a4.5,4.5 0,1,1 9,0 a4.5,4.5 0,1,1 -9,0" />
+
+    <!-- Central Hub Solid Dot -->
+    <path
+        android:fillColor="#FFF1B0"
+        android:pathData="M54,54 m-1.8,0 a1.8,1.8 0,1,1 3.6,0 a1.8,1.8 0,1,1 -3.6,0" />
+
+    <!-- 8 Radiating Spokes -->
+    <path
+        android:strokeColor="#FED86E"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,40.5 L54,49.5 M54,58.5 L54,67.5 M40.5,54 L49.5,54 M58.5,54 L67.5,54" />
+    <path
+        android:strokeColor="#FED86E"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M44.4,44.4 L50.8,50.8 M57.2,57.2 L63.6,63.6 M63.6,44.4 L57.2,50.8 M50.8,57.2 L44.4,63.6" />
+
+    <!-- 8 Pointed Outer Teeth (pointing outward) -->
+    <!-- Top & Bottom -->
+    <path android:fillColor="#FED86E" android:pathData="M54,36.5 L56.5,40.5 L51.5,40.5 Z" />
+    <path android:fillColor="#FED86E" android:pathData="M54,71.5 L56.5,67.5 L51.5,67.5 Z" />
+    <!-- Left & Right -->
+    <path android:fillColor="#FED86E" android:pathData="M36.5,54 L40.5,56.5 L40.5,51.5 Z" />
+    <path android:fillColor="#FED86E" android:pathData="M71.5,54 L67.5,56.5 L67.5,51.5 Z" />
+    <!-- Diagonals -->
+    <path android:fillColor="#FED86E" android:pathData="M41.6,41.6 L42.3,46.5 L45.8,43.0 Z" />
+    <path android:fillColor="#FED86E" android:pathData="M66.4,66.4 L65.7,61.5 L62.2,65.0 Z" />
+    <path android:fillColor="#FED86E" android:pathData="M66.4,41.6 L61.5,42.3 L65.0,45.8 Z" />
+    <path android:fillColor="#FED86E" android:pathData="M41.6,66.4 L46.5,65.7 L43.0,62.2 Z" />
+
+
+    <!-- 2. The Golden Rosary (Circle of 17 Beads) -->
+    <!-- Shadow bases for 3D sphere look -->
+    <path
+        android:fillColor="#9F680B"
+        android:pathData="
+            M 81.5,51.0 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 80.2,59.5 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 76.3,67.2 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 70.2,73.3 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 62.5,77.2 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 45.5,77.2 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 37.8,73.3 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 31.7,67.2 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 27.8,59.5 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 26.5,51.0 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 27.8,42.5 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 54.0,23.5 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 62.5,24.8 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 70.2,28.7 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 76.3,34.8 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 80.2,42.5 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0
+            M 54.0,78.5 m -3.4,0 a 3.4,3.4 0,1,1 6.8,0 a 3.4,3.4 0,1,1 -6.8,0" />
+
+    <!-- Golden Mid-tone spheres -->
+    <path
+        android:fillColor="#FED86E"
+        android:pathData="
+            M 81.5,51.0 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 80.2,59.5 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 76.3,67.2 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 70.2,73.3 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 62.5,77.2 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 45.5,77.2 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 37.8,73.3 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 31.7,67.2 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 27.8,59.5 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 26.5,51.0 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 27.8,42.5 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 54.0,23.5 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 62.5,24.8 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 70.2,28.7 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 76.3,34.8 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 80.2,42.5 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0
+            M 54.0,78.5 m -3.0,0 a 3.0,3.0 0,1,1 6.0,0 a 3.0,3.0 0,1,1 -6.0,0" />
+
+    <!-- Bright specular 3D highlights (radius 1.0, offset slightly up-left) -->
+    <path
+        android:fillColor="#FFF4D0"
+        android:pathData="
+            M 80.7,50.2 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 79.4,58.7 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 75.5,66.4 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 69.4,72.5 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 61.7,76.4 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 44.7,76.4 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 37.0,72.5 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 30.9,66.4 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 27.0,58.7 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 25.7,50.2 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 27.0,41.7 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 53.2,22.7 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 61.7,24.0 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 69.4,27.9 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 75.5,34.0 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 79.4,41.7 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0
+            M 53.2,77.7 m -1.0,0 a 1.0,1.0 0,1,1 2.0,0 a 1.0,1.0 0,1,1 -2.0,0" />
+
+
+    <!-- 3. Burmese Number "၉" (9) Lucky Ornament on Top-Left (210° quadrant) -->
+    <!-- Gold 3D Outline base for Burmese ၉ -->
+    <path
+        android:strokeColor="#8E5E04"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M39,22 C32,20 27,24.5 27,31.5 C27,39 33.5,42.5 39.5,41 C44,39.5 46,35 46,31.5 C46,27.5 42,25 38.5,25.5 C34.5,26 33.5,29.5 33.5,31.5 C33.5,34 35.5,35 37.5,34.5" />
+    
+    <!-- Gold Main Color Stroke for Burmese ၉ -->
+    <path
+        android:strokeColor="#FED86E"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M39,22 C32,20 27,24.5 27,31.5 C27,39 33.5,42.5 39.5,41 C44,39.5 46,35 46,31.5 C46,27.5 42,25 38.5,25.5 C34.5,26 33.5,29.5 33.5,31.5 C33.5,34 35.5,35 37.5,34.5" />
+
+    <!-- Gold Specular Inner Highlight for Burmese ၉ -->
+    <path
+        android:strokeColor="#FFF4D0"
+        android:strokeWidth="1.0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M39.3,22.3 C32.5,20.5 27.5,24.8 27.5,31.5 C27.5,38.7 33.7,42.0 39.3,40.7 C43.5,39.3 45.2,35.0 45.2,31.5 C45.2,27.8 41.8,25.4 38.7,25.8 C34.8,26.3 33.8,29.5 33.8,31.5 C33.8,33.7 35.5,34.5 37.2,34.2" />
+
+
+    <!-- 4. Sacred Bottom Tassel Hanging Downwards -->
+    <!-- Tassel Connector Cap (Bell-shaped) -->
+    <path
+        android:fillColor="#FED86E"
+        android:strokeColor="#8E5E04"
+        android:strokeWidth="0.8"
+        android:pathData="M49.5,81 L58.5,81 C58.5,83 56,84.5 54,84.5 C52,84.5 49.5,83 49.5,81 Z" />
+    <path
+        android:fillColor="#FFF4D0"
+        android:pathData="M51.5,81.5 L56.5,81.5 C56.5,82.2 55.2,83 54,83 C52.8,83 51.5,82.2 51.5,81.5 Z" />
+
+    <!-- Tassel Fringe Threads (Radiating upwards-contracted downwards-expanded) -->
+    <!-- Base Shadow of Tassel Fringe -->
+    <path
+        android:fillColor="#A9730A"
+        android:pathData="M54,83.5 L50,94.5 C51.5,95.5 56.5,95.5 58,94.5 Z" />
+    <!-- Main gold body of Tassel Fringe -->
+    <path
+        android:fillColor="#FED86E"
+        android:pathData="M54,84 L51,94 C52.5,95 55.5,95 57,94 Z" />
+
+    <!-- Individual detailed thread strokes inside Tassel -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:strokeLineCap="round"
+        android:pathData="M54,84.5 L54,94" />
+    <path
+        android:strokeColor="#E6A111"
+        android:strokeWidth="0.8"
+        android:strokeLineCap="round"
+        android:pathData="M53,84.2 L52.2,93.5 M55,84.2 L55.8,93.5 M52,84.5 L50.5,92.5 M56,84.5 L57.5,92.5" />
+
+</vector>
